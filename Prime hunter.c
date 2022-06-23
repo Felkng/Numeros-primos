@@ -11,9 +11,9 @@ int main()
         {
             while(overln>=underln)
             {
-                if(underln > 1 && underln < overln && overln%underln == 0)
+                if(underln > 1 && underln < overln && overln%underln == 0) //CONDIÇÃO PARA IGNORAR OS NÚMEROS NÃO PRIMOS
                     break;
-                if(underln > 1 && overln%underln==0)
+                if(underln > 1 && overln%underln==0) // CONDIÇÃO PARA IMPRIMIR OS NÚMEROS PRIMOS
                 {
                     prime=underln;
                     printf("%d ",prime);
